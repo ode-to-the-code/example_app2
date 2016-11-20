@@ -1,0 +1,12 @@
+
+<h1>New Recipe</h1>
+<%= form_tag '/examples', method: :post do %>
+  <div>
+    <%= label_tag :size %>
+    <%= text_field_tag :size %>
+  </div>
+  <div>
+    <%= label_tag :number %>
+    <%= text_field_tag :number %>
+  </div>
+<% end %>
